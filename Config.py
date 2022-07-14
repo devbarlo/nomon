@@ -1,6 +1,10 @@
-import os
+import os getenv
+from dotenv import load_dotenv
 
-class Config(object):
+load_dotenv()
+que = {}
+admins = {}
+	
 API_ID = int(getenv("API_ID", "9572580"))
 API_HASH = getenv("API_HASH", "c746d70303fcb2fdc0c1b41e5066f537")
 BOT_TOKEN = getenv("BOT_TOKEN", "1801681232:AAHwfkaI5a4tv_su66qTAGk6tjyHUeKCzSA")
