@@ -1,4 +1,4 @@
-import os getenv
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
